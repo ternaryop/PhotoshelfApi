@@ -32,7 +32,7 @@ buildscript {
     ext.publishPackage = [
         version: '1.0.0',
         groupId: 'com.ternaryop',
-        artifactId: 'feedly',
+        artifactId: 'photoShelfapi',
         bintrayRepoName: 'PhotoShelfApi',
         desc: 'PhotoShelf Api Library focused on Android integration',
         website: 'https://github.com/ternaryop/PhotoshelfApi.git'
