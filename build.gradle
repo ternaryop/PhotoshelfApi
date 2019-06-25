@@ -30,7 +30,7 @@ buildscript {
     }
 
     ext.publishPackage = [
-        version: '1.0.0',
+        version: '1.0.1',
         groupId: 'com.ternaryop.photoshelf',
         artifactId: 'api',
         bintrayRepoName: 'PhotoShelfApi',
