@@ -32,7 +32,7 @@ dependencies {
 
     implementation project(':library')
 
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    testImplementation "junit:junit:${rootProject.ext.junitLibVersion}"
+    androidTestImplementation "androidx.test:runner:${rootProject.ext.androidXTestRunner}"
+    androidTestImplementation "androidx.test.espresso:espresso-core:${rootProject.ext.androidXEspressoCoreLibVersion}"
 }

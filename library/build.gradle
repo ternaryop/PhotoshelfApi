@@ -13,7 +13,10 @@ android {
 
         // fix the error "More than one file was found with OS independent path 'META-INF/library_release.kotlin_module'"
         // when used inside the app
-        kotlinOptions.freeCompilerArgs += ['-module-name', "${rootProject.ext.publishPackage.groupId}.${rootProject.ext.publishPackage.artifactId}"]
+        kotlinOptions {
+            freeCompilerArgs += ['-module-name', "${rootProject.ext.publishPackage.groupId}.${rootProject.ext.publishPackage.artifactId}"]
+            jvmTarget = "1.8"
+        }
     }
 
     defaultConfig {
